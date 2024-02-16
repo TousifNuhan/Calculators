@@ -53,14 +53,14 @@
             <p>Area(A)= w x l 
               <div>
 
-                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="w">
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" id="width" placeholder="w">
                 <span class="ml-2">cm</span>
-                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="l">
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" id="length" placeholder="l">
                 <span>cm</span>
               </div>
             </p>
             <div class="card-actions ">
-              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+              <button onclick="rectangleArea()" class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
             </div>
           </div>
         </div>
@@ -163,8 +163,8 @@
     </div>
   </main>
 
-
   <script src="triangle-calculator.js"></script>
+  <script src="rectangle-calculator.js"></script>
 </body>
 
 </html>
