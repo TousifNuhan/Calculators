@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Genius</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <div class="flex flex-col md:flex-row">
+
+      <!-- Cards -->
+      <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- card1 -->
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/triangle.png"  />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Triangle</h2>
+            <p>Area(A)= 0.5 x b x h 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" id="base" type="text" placeholder="b">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" id="height" type="text" placeholder="h">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button onclick=" traiangleArea()" class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card2 -->
+
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/rectangle.png"  />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Rectangle</h2>
+            <p>Area(A)= w x l 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="w">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="l">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <!-- card3 -->
+
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/parallelogram.png"  />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Paralellogram</h2>
+            <p>Area(A)= 0.5 x b x h 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="b">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="h">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+        <!-- card4 -->
+
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/triangle.png"  />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Triangle</h2>
+            <p>Area(A)= 0.5 x b x h 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="b">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="h">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card5 -->
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/triangle.png" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Triangle</h2>
+            <p>Area(A)= 0.5 x b x h 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="b">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="h">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- card6 -->
+        <div class="card w-80 bg-base-100 shadow-xl ">
+          <figure class="px-10 pt-10">
+            <img src="images/triangle.png"  />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-3xl">Triangle</h2>
+            <p>Area(A)= 0.5 x b x h 
+              <div>
+
+                <input class="rounded-sm w-24 p-2 text-2xl" type="text" placeholder="b">
+                <span class="ml-2">cm</span>
+                <input class="rounded-sm w-24 p-2 text-xl" type="text" placeholder="h">
+                <span>cm</span>
+              </div>
+            </p>
+            <div class="card-actions ">
+              <button class="btn bg-[#1090D8] text-[#FFFFFF] w-72 ">Calculate</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Output -->
+      <div class="w-96 border-2 border-gray-700 rounded-md">
+        <h3 class="text-3xl text-center p-4">Area Calculation</h3>
+      </div>
+
+    </div>
+  </main>
+
+
+  <script src="triangle-calculator.js"></script>
+</body>
+
+</html>
