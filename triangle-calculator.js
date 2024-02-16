@@ -7,9 +7,10 @@ function traiangleArea() {
     const height = parseFloat(heightInput);
     // console.log(height);
    
-    document.querySelector('#base').value = '';
-
     const area = 0.5 * base * height;
     console.log(area);
+
+    document.querySelector('#base').value = '';
+    document.getElementById('height').value = '';
 }
 

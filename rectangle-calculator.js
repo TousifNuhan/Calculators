@@ -8,6 +8,7 @@ function rectangleArea() {
     // console.log(length);
 
     document.getElementById('width').value = '';
+    document.getElementById('length').value = '';
 
     const area = width * length;
     console.log(area);
